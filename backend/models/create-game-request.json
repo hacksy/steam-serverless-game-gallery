@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "game",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "appId": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "appId"
+  ],
+  "additionalProperties": false
+}
